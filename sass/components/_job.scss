@@ -1,0 +1,42 @@
+.job {
+  @include container;
+
+  &__image {
+    position: absolute;
+    width: 20rem;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  &__company {
+    font-size: 4rem;
+
+    &-link {
+      &:link,
+      &:visited {
+        text-decoration: none;
+        color: $color-dark-grey;
+      }
+
+      &:hover,
+      &:active {
+        color: $color-primary-dark;
+      }
+    }
+  }
+
+  &__title {
+    font-size: 2.2rem;
+  }
+
+  &__location,
+  &__dates {
+    font-size: 1.5rem;
+  }
+
+  &__responsibilities {
+    padding: 2rem;
+    // list-style: none;
+  }
+}

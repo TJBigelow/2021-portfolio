@@ -1,0 +1,66 @@
+.project {
+  @include container;
+
+  &--right {
+    text-align: right;
+
+    .project__tech-list {
+      right: 3rem;
+    }
+  }
+
+  &__image {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 1rem 2rem rgba($color: black, $alpha: 0.3);
+  }
+
+  &__title {
+    font-size: 4rem;
+  }
+
+  &__links {
+    list-style: none;
+    padding-bottom: 2rem;
+  }
+
+  &__link-item {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 0.7rem;
+    }
+  }
+
+  &__link {
+    font-size: 2.5rem;
+    &:visited,
+    &:link {
+      color: $color-dark-grey;
+      transition: all 0.2s;
+    }
+
+    &:hover,
+    &:active {
+      color: $color-primary-dark;
+    }
+  }
+
+  &__description {
+    font-size: 2rem;
+  }
+
+  &__tech-list {
+    position: absolute;
+    bottom: 3rem;
+    list-style: none;
+  }
+
+  &__tech-item {
+    display: inline-block;
+  }
+
+  &__tech-icon {
+    width: 3rem;
+  }
+}

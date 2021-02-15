@@ -1,0 +1,20 @@
+@mixin clearfix {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@mixin container {
+  box-shadow: 0 1rem 5rem rgba($color: black, $alpha: 0.2);
+  border-radius: 1rem;
+  // background-color: rgba($color-secondary, 0.5);
+  background-image: radial-gradient(
+    at top left,
+    rgba($color-secondary-light, 0.7),
+    rgba($color-secondary-dark, 0.5)
+  );
+  padding: 3rem;
+  position: relative;
+}

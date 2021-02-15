@@ -1,0 +1,38 @@
+.skill-box {
+  display: block;
+  box-shadow: 0 1rem 5rem rgba($color: black, $alpha: 0.2);
+  border-radius: 1rem;
+  background-image: radial-gradient(
+    at top left,
+    rgba($color-secondary-light, 0.7),
+    rgba($color-secondary-dark, 0.5)
+  );
+  height: 100%;
+
+  &__heading {
+    text-align: center;
+    margin: 1rem;
+    font-size: 2rem;
+  }
+
+  &__content {
+    list-style: none;
+    display: block;
+  }
+
+  &__item {
+    text-align: center;
+  }
+
+  &__name {
+    vertical-align: 1rem;
+  }
+
+  &__icon {
+    width: 3rem;
+  }
+}
+
+.skill-box-container {
+  height: 26rem;
+}
