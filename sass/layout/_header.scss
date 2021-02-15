@@ -1,13 +1,14 @@
 .header {
   height: 100vh;
-  // background-image: linear-gradient(to right bottom, #add8e6, #4682b4);
+  max-width: 114rem;
+  margin: auto;
 
   &__text {
-    max-width: 114rem;
     position: absolute;
+    max-width: 114rem;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    // left: 50%;
+    transform: translateY(-50%);
   }
 
   &__hero {
