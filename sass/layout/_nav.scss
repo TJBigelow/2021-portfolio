@@ -2,7 +2,12 @@
   position: relative;
   height: 6rem;
   width: 100%;
-  background-color: $color-primary-light;
+  background-image: linear-gradient(
+    to left,
+    rgba($color-secondary-light, 0.5),
+    rgba($color-secondary, 0.3) 80%,
+    rgba($color-secondary-dark, 0.1)
+  );
   z-index: 1;
   text-align: right;
   padding-top: 1rem;
