@@ -11,7 +11,7 @@ html {
 
 body {
   box-sizing: border-box;
-  background-image: linear-gradient(to bottom right, #03f4ff, #006469);
+  background-image: linear-gradient(to bottom right, #62d6ff, #004862);
   background-attachment: fixed; }
 
 @keyframes moveInLeft {
@@ -58,7 +58,7 @@ body {
     color: #222831;
     transition: all 0.2s; }
   .socials__link:hover, .socials__link:active {
-    color: #006469; }
+    color: #004862; }
 
 .skill-box {
   display: block;
@@ -112,7 +112,7 @@ body {
       color: #222831;
       transition: all 0.2s; }
     .project__link:hover, .project__link:active {
-      color: #006469; }
+      color: #004862; }
   .project__description {
     font-size: 2rem; }
   .project__tech-list {
@@ -142,7 +142,7 @@ body {
       text-decoration: none;
       color: #222831; }
     .job__company-link:hover, .job__company-link:active {
-      color: #006469; }
+      color: #004862; }
   .job__title {
     font-size: 2.2rem; }
   .job__location, .job__dates {
@@ -177,7 +177,7 @@ body {
     font-weight: 400;
     transition: all 0.2s; }
   .nav__link:hover, .nav__link:active {
-    color: #006469; }
+    color: #004862; }
 
 .header {
   height: 100vh;
