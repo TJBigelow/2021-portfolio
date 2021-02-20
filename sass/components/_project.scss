@@ -1,5 +1,6 @@
 .project {
   @include container;
+  transition: all 0.2s;
 
   &--right {
     text-align: right;
@@ -62,5 +63,10 @@
 
   &__tech-icon {
     width: 3rem;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2rem 2rem rgba($color: black, $alpha: 0.3);
   }
 }

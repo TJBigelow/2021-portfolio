@@ -8,6 +8,7 @@
     rgba($color-secondary-dark, 0.5)
   );
   height: 100%;
+  transition: all 0.2s;
 
   &__heading {
     text-align: center;
@@ -30,6 +31,11 @@
 
   &__icon {
     width: 3rem;
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 3rem 5rem rgba($color: black, $alpha: 0.2);
   }
 }
 
