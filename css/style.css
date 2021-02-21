@@ -94,6 +94,9 @@ body {
   padding: 3rem;
   position: relative;
   transition: all 0.2s; }
+  .project:hover {
+    transform: scale(1.05);
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.2); }
   .project--right {
     text-align: right; }
     .project--right .project__tech-list {
@@ -128,9 +131,6 @@ body {
     display: inline-block; }
   .project__tech-icon {
     width: 3rem; }
-  .project:hover {
-    transform: scale(1.05);
-    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.3); }
 
 .job {
   box-shadow: 0 1rem 5rem rgba(0, 0, 0, 0.2);
@@ -139,6 +139,9 @@ body {
   padding: 3rem;
   position: relative;
   transition: all 0.2s; }
+  .job:hover {
+    transform: scale(1.05);
+    box-shadow: 0 3rem 5rem rgba(0, 0, 0, 0.2); }
   .job__image {
     position: absolute;
     width: 20rem;
@@ -158,9 +161,6 @@ body {
     font-size: 1.5rem; }
   .job__responsibilities {
     padding: 2rem; }
-  .job:hover {
-    transform: scale(1.05);
-    box-shadow: 0 2rem 2rem rgba(0, 0, 0, 0.3); }
 
 .nav {
   position: fixed;
