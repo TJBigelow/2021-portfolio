@@ -33,3 +33,17 @@ body {
   );
   background-attachment: fixed;
 }
+
+.background {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  background-image: linear-gradient(
+    to bottom right,
+    $color-primary-light,
+    $color-primary-dark
+  );
+  background-color: $color-primary-dark;
+  z-index: -1;
+}
