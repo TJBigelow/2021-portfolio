@@ -49,10 +49,15 @@
 }
 
 .skill-box-container {
-  height: 26rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  // grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
+    max-width: 35rem;
+  }
   gap: 5%;
+  justify-content: center;
   margin: auto;
   @media (min-width: 1140px) {
     max-width: 114rem;
