@@ -51,7 +51,7 @@ body {
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 2.3rem;
   color: #222831;
   font-display: swap; }
 
@@ -89,7 +89,7 @@ body {
   transition: all 0.2s; }
   .skill-box__heading {
     padding: 1rem;
-    font-size: 2rem;
+    font-size: 2.3rem;
     grid-column: 2/4;
     grid-row: 1/2; }
   .skill-box__content {
@@ -187,7 +187,7 @@ body {
     .project__link:hover, .project__link:active {
       color: #004862; }
   .project__description {
-    font-size: 2rem; }
+    font-size: 2.3rem; }
     @media (max-width: 800px) {
       .project__description {
         width: 50%;
@@ -232,11 +232,11 @@ body {
     .job__company-link:hover, .job__company-link:active {
       color: #004862; }
   .job__title {
-    font-size: 2.2rem; }
+    font-size: 1.5rem; }
   .job__location, .job__dates {
     font-size: 1.5rem; }
   .job__responsibilities {
-    padding: 2rem; }
+    padding: 2.3rem; }
 
 .nav {
   position: fixed;

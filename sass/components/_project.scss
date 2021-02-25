@@ -79,7 +79,7 @@
   }
 
   &__description {
-    font-size: 2rem;
+    font-size: $default-font-size;
     @media (max-width: 800px) {
       width: 50%;
       margin: auto;
