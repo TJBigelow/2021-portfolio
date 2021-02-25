@@ -1,12 +1,16 @@
 .job {
   @include container;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+
+  &__image-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   &__image {
-    position: absolute;
     width: 20rem;
-    top: 0;
-    bottom: 0;
-    margin: auto;
   }
 
   &__company {
