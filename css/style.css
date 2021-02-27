@@ -20,7 +20,7 @@ html {
 
 body {
   box-sizing: border-box;
-  background-image: linear-gradient(to bottom right, #62d6ff, #004862);
+  background-image: linear-gradient(to bottom right, #95e4ff, #0094c8);
   background-attachment: fixed; }
 
 .background {
@@ -28,8 +28,8 @@ body {
   height: 100vh;
   width: 100%;
   top: 0;
-  background-image: linear-gradient(to bottom right, #62d6ff, #004862);
-  background-color: #004862;
+  background-image: linear-gradient(to bottom right, #95e4ff, #0094c8);
+  background-color: #0094c8;
   z-index: -1; }
 
 @keyframes moveInLeft {
@@ -76,7 +76,7 @@ body {
     color: #222831;
     transition: all 0.2s; }
   .socials__link:hover, .socials__link:active {
-    color: #004862; }
+    color: #0094c8; }
 
 .skill-box {
   display: grid;
@@ -185,7 +185,7 @@ body {
       color: #222831;
       transition: all 0.2s; }
     .project__link:hover, .project__link:active {
-      color: #004862; }
+      color: #0094c8; }
   .project__description {
     font-size: 2.3rem; }
     @media (max-width: 800px) {
@@ -230,7 +230,7 @@ body {
       text-decoration: none;
       color: #222831; }
     .job__company-link:hover, .job__company-link:active {
-      color: #004862; }
+      color: #0094c8; }
   .job__title {
     font-size: 1.5rem; }
   .job__location, .job__dates {
@@ -266,7 +266,7 @@ body {
     font-weight: 400;
     transition: all 0.2s; }
   .nav__link:hover, .nav__link:active {
-    color: #004862; }
+    color: #0094c8; }
 
 .header {
   height: 100vh;
